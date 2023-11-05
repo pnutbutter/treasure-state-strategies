@@ -206,6 +206,14 @@ header.masthead::after {
 
 }
 */
+.logo {
+  width: 15em;
+}
+
+.navbar-shrink .logo {
+  width: 10em;
+}
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
@@ -542,6 +550,13 @@ header.masthead::after {
 }
 .team-member p {
   margin-top: 0;
+}
+
+#about {
+  background-image: linear-gradient(90deg, #f8f9fa 50%, transparent), url("/assets//img/broadhurst_road.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 102%;
+  background-position-x: 280%;
 }
 
 section#contact {
