@@ -557,7 +557,7 @@ header.masthead::after {
 }
 
 #about {
-  background-image: linear-gradient(90deg, #f8f9fa 50%, transparent), url("/assets//img/broadhurst_road.jpg");
+  background-image: linear-gradient(90deg, #f8f9fa 50%, transparent), url("../img/broadhurst_road.jpg");
   background-repeat: no-repeat;
   background-size: auto 102%;
   background-position-x: 280%;
