@@ -556,13 +556,14 @@ header.masthead::after {
   margin-top: 0;
 }
 
-#about {
-  background-image: linear-gradient(90deg, #f8f9fa 50%, transparent), url("../img/broadhurst_road.jpg");
-  background-repeat: no-repeat;
-  background-size: auto 102%;
-  background-position-x: right;
+@media (min-width: 768px) {
+  #about {
+    background-image: linear-gradient(90deg, #f8f9fa 50%, transparent), url("../img/broadhurst_road.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 102%;
+    background-position-x: right;
+  }
 }
-
 section#contact {
   background-color: #002942;
   background-image: url("../img/contact.png");
