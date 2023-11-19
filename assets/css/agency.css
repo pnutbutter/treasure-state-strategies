@@ -9,10 +9,13 @@ p {
 
 a {
   color: #002942;
-  text-decoration: underline;
 }
 a:hover {
   color: #00090f;
+}
+
+p a {
+  text-decoration: underline;
 }
 
 .text-primary {

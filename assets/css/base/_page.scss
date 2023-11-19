@@ -10,10 +10,12 @@ p {
 
 a {
   color: $link-primary;
-  text-decoration: underline;
   &:hover {
     color: darken($link-primary, 10%);
   }
+}
+p a {
+  text-decoration: underline;  
 }
 
 .text-primary {
