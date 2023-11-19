@@ -1,6 +1,6 @@
 // Styling for the team section
 .team-member {
-  margin-bottom: 50px;
+  margin-bottom: 3em;
   text-align: center;
   img {
     width: 225px;
@@ -15,6 +15,18 @@
   p {
     margin-top: 0;
   }
+}
+
+#team.page-section h2.section-heading{
+  margin-bottom: 1.5em;
+}
+
+.section-team{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#team.section-team{
+  padding-top: 100px;
 }
 
 @media (min-width: 768px) { 
