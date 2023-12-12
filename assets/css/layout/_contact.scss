@@ -44,4 +44,12 @@ section#contact {
     color: $gray-400;
     @include heading-font;
   }
+  a {
+    color: #FFF;
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken(#FFF, 10%);
+    }
+  }
 }

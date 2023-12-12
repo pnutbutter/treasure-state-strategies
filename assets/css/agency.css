@@ -636,6 +636,12 @@ section#contact :-ms-input-placeholder {
   color: #ced4da;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+section#contact a {
+  color: #FFF;
+}
+section#contact a:active, section#contact a:focus, section#contact a:hover {
+  color: #e6e6e6;
+}
 
 .footer {
   padding: 25px 0;
