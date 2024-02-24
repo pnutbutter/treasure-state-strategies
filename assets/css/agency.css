@@ -141,7 +141,7 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    font-size: 1.3em;
+    font-size: 1.75em;
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -218,6 +218,11 @@ header.masthead::after {
   width: 10em;
 }
 
+@media (max-width: 768px) {
+  .logo {
+    width: 10em;
+  }
+}
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
